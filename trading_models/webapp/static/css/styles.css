@@ -1,0 +1,27 @@
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+a {
+  color: #38bdf8;
+}
+
+a:hover {
+  color: #7dd3fc;
+}
+
+.card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+}
+
+.table-dark th,
+.table-dark td {
+  color: #e2e8f0;
+}
+
+.chart-container {
+  position: relative;
+  height: 360px;
+}
