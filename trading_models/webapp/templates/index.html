@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Trading Models{% endblock %}
+{% block content %}
+  <div class="row">
+    {% for model in models %}
+      <div class="col-md-6">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ model.name }}</h5>
+            <p class="card-text">{{ model.description }}</p>
+            <a href="/{{ model.slug }}" class="btn btn-primary">Open dashboard</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

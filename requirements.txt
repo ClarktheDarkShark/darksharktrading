@@ -1,0 +1,10 @@
+Flask==2.3.3
+gunicorn==21.2.0
+pandas==2.1.1
+numpy==1.26.0
+scikit-learn==1.3.2
+yfinance==0.2.31
+matplotlib==3.8.0
+requests==2.31.0
+python-dotenv==1.0.0
+joblib==1.3.2
